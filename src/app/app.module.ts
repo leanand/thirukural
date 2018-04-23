@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ThirukuralService } from './thirukural.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ ThirukuralService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

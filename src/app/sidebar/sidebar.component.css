@@ -1,0 +1,11 @@
+.sidebar-wrapper{
+  height: 100%;
+  border: 1px solid black;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.sidebar-header{
+  text-align: center;
+}
